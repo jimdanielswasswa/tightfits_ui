@@ -48,7 +48,7 @@ const Home = () => {
                 </div>
                 <div className="col-md-3">
                     <div className="card">
-                        <img src={one} className="img-fluid card-image-top" />
+                        <img src={one} alt="alt" className="img-fluid card-image-top" />
                         <div className="card-body">
                             Lorem Ipsum
                         </div>
@@ -56,7 +56,7 @@ const Home = () => {
                 </div>
                 <div className="col-md-3">
                     <div className="card">
-                        <img src={one} className="img-fluid card-image-top" />
+                        <img src={one} alt="alt" className="img-fluid card-image-top" />
                         <div className="card-body">
                             Lorem Ipsum
                         </div>
@@ -77,7 +77,7 @@ const Home = () => {
             <div className="row pt-4 pb-5 mb-4 bg-light border-bottom">
                 <div className="col-md-3">
                     <div className="card">
-                        <img src={one} className="img-fluid card-image-top" />
+                        <img src={one} alt="alt" className="img-fluid card-image-top" />
                         <div className="card-body">
                             Lorem Ipsum
                         </div>
@@ -85,7 +85,7 @@ const Home = () => {
                 </div>
                 <div className="col-md-3">
                     <div className="card">
-                        <img src={one} className="img-fluid card-image-top" />
+                        <img src={one} alt="alt" className="img-fluid card-image-top" />
                         <div className="card-body">
                             Lorem Ipsum
                         </div>
@@ -93,7 +93,7 @@ const Home = () => {
                 </div>
                 <div className="col-md-3">
                     <div className="card">
-                        <img src={one} className="img-fluid card-image-top" />
+                        <img src={one} alt="alt" className="img-fluid card-image-top" />
                         <div className="card-body">
                             Lorem Ipsum
                         </div>
@@ -101,7 +101,7 @@ const Home = () => {
                 </div>
                 <div className="col-md-3">
                     <div className="card">
-                        <img src={one} className="img-fluid card-image-top" />
+                        <img src={one} alt="alt" className="img-fluid card-image-top" />
                         <div className="card-body">
                             Lorem Ipsum
                         </div>
