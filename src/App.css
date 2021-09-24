@@ -2,11 +2,27 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* .main-content { padding-top: 2%; } */
+.details {
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
-
+.details-content {  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.count {
+  position: absolute;
+  top: -20%;
+  right: -20%;
+  border-radius: 15px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-float infinite 3s ease-in-out;
