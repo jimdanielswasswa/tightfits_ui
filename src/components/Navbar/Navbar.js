@@ -35,7 +35,7 @@ const Navbar = () => {
                         <NavLink className="nav-link text-white fw-light" activeClassName="active" to="/sales">Sales</NavLink>
                     </li>
                     <li className="nav-item dropdown">
-                        <a href="#" className="nav-link text-white fw-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Categories</a>
+                        <a href={() => false} className="nav-link text-white fw-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Categories</a>
                         <ul className="dropdown-menu mx-0 shadow">
                             {categories.map((category) => <li key={category.id}>
                                 <Link className="dropdown-item fw-bold" to={`/categories/${category.id}/products`} key={category.id}>{category.name}</Link>
