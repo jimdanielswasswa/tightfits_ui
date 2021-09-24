@@ -64,7 +64,7 @@ const Home = () => {
                 </div>
                 <div className="col-md-3">
                     <div className="card">
-                        <img src={one} className="img-fluid card-image-top" />
+                        <img src={one} alt="alt" className="img-fluid card-image-top" />
                         <div className="card-body">
                             Lorem Ipsum
                         </div>
