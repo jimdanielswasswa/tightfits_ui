@@ -1,5 +1,6 @@
 const Client = {};
-const BASE_APP_URL = process.env.BASE_APP_URL || `http://localhost:8000/`;
+// const BASE_APP_URL = process.env.BASE_APP_URL || `http://localhost:8000/`;
+const BASE_APP_URL = process.env.BASE_APP_URL || `https://tightfits.herokuapp.com/`;
 Client.get = async (url) => (new Promise((resolve, reject) => {
     debugger
     const request = new XMLHttpRequest();
